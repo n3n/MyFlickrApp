@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		07AECEB51C089685007420BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AECEB41C089685007420BD /* main.m */; };
 		07AECEB81C089685007420BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AECEB71C089685007420BD /* AppDelegate.m */; };
-		07AECEBB1C089685007420BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AECEBA1C089685007420BD /* ViewController.m */; };
 		07AECEBE1C089685007420BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AECEBC1C089685007420BD /* Main.storyboard */; };
 		07AECEC01C089685007420BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AECEBF1C089685007420BD /* Assets.xcassets */; };
 		07AECEC31C089685007420BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AECEC11C089685007420BD /* LaunchScreen.storyboard */; };
+		07AECECC1C08A43F007420BD /* FlickrListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AECECB1C08A43F007420BD /* FlickrListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		07AECEB41C089685007420BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07AECEB61C089685007420BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07AECEB71C089685007420BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07AECEB91C089685007420BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07AECEBA1C089685007420BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		07AECEBD1C089685007420BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07AECEBF1C089685007420BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07AECEC21C089685007420BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07AECEC41C089685007420BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AECECA1C08A43F007420BD /* FlickrListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrListViewController.h; sourceTree = "<group>"; };
+		07AECECB1C08A43F007420BD /* FlickrListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,13 @@
 			children = (
 				07AECEB61C089685007420BD /* AppDelegate.h */,
 				07AECEB71C089685007420BD /* AppDelegate.m */,
-				07AECEB91C089685007420BD /* ViewController.h */,
-				07AECEBA1C089685007420BD /* ViewController.m */,
 				07AECEBC1C089685007420BD /* Main.storyboard */,
 				07AECEBF1C089685007420BD /* Assets.xcassets */,
 				07AECEC11C089685007420BD /* LaunchScreen.storyboard */,
 				07AECEC41C089685007420BD /* Info.plist */,
 				07AECEB31C089685007420BD /* Supporting Files */,
+				07AECECA1C08A43F007420BD /* FlickrListViewController.h */,
+				07AECECB1C08A43F007420BD /* FlickrListViewController.m */,
 			);
 			path = MyFlickrApp;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07AECEBB1C089685007420BD /* ViewController.m in Sources */,
 				07AECEB81C089685007420BD /* AppDelegate.m in Sources */,
+				07AECECC1C08A43F007420BD /* FlickrListViewController.m in Sources */,
 				07AECEB51C089685007420BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
